@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div id="main">
       <Head>
-        <title>Daniel G</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
