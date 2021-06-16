@@ -2,23 +2,21 @@
 
 #navbar {
   background-color: $secondary-background;
+  top: 0;
   position: fixed;
   z-index: 999;
   width: 100%;
   display: flex;
   align-items: center;
+}
 
-  .item {
-    color: $white;
-    padding: 15px;
-  }
-  
-  #title {
-    font-size: 1.25rem;
-  }
-  
-  #author {
-    margin-left: auto;
-    font-size: 0.75rem;
-  }
+#name {
+  padding: 15px;
+}
+
+#routes {
+  margin-left: auto;
+  font-size: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -10,10 +10,8 @@ export default function Home() {
         <title>Daniel Goldenberg</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar current="null"/>
-      <div id="container-main">
-        <Heading title="Welcome to Daniel's Portfolio"/>
-      </div>
+      <Navbar current="resume"/>
+      <Heading title="My Resume"/>
     </div>
   )
 }

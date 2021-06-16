@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div id="main">
       <Head>
-        <title>Simulations</title>
+        <title>Daniel Goldenberg</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
