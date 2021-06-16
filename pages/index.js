@@ -28,7 +28,7 @@ export default function Home() {
         <meta name="addsearch-category" content="Daniel Goldenberg"></meta>
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
-      <Navbar current="null"/>
+      <Navbar current="main"/>
       <div id="container-main">
         <Heading title="Welcome to Daniel's Portfolio"/>
       </div>
