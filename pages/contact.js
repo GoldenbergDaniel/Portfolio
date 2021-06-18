@@ -1,19 +1,19 @@
 import Head from "next/head"
 
-import Navbar from "../../components/Navbar"
-import MyProjects from "../../components/pageContent/MyProjects"
+import Navbar from "../components/Navbar"
+import ContactMe from "../components/pageContent/ContactMe"
 
-import favicon from "../../public/favicon.png"
+import favicon from "../public/favicon.png"
 
 export default function Home() {
-  let page = "projects"
+  let page = "contact"
 
   return (
     <div id="main">
       <Head>
-        <title>Daniel Goldenberg's Projects</title>
+        <title>About Daniel Goldenberg</title>
         <link rel="icon" href={favicon} />
-        <meta property="og:title" content="Daniel Goldenberg's Projects"></meta>
+        <meta property="og:title" content="About Daniel Goldenberg"></meta>
         <meta property="og:locale" content="en_US"></meta>
         <meta property="og:country-name" content="United States"></meta>
         <meta property="og:description" content="My name is Daniel Goldenberg and I'm a student and software developer based in Miami, Florida."></meta>
@@ -32,7 +32,7 @@ export default function Home() {
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
       <Navbar current={page}/>
-      <MyProjects/>
+      <ContactMe/>
     </div>
   )
 }

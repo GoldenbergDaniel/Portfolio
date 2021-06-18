@@ -1,0 +1,32 @@
+@import "../globals";
+
+#aboutMe {
+
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#photo {
+  img {
+    width: 350px;
+    border: 1px solid $secondary-background;
+  }
+}
+
+#description {
+  width: 70%;
+  line-height: 28px;
+  font-size: 14px;
+  width: 40%;
+  min-width: 300px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 30px 25px;
+}

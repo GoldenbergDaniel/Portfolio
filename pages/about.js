@@ -1,21 +1,23 @@
 import Head from "next/head"
 
 import Navbar from "../components/Navbar"
-import Heading from "../components/Heading"
-import AboutMe from "../components/AboutMe"
+import AboutMe from "../components/pageContent/AboutMe"
+
+import favicon from "../public/favicon.png"
 
 export default function Home() {
+  let page = "about"
+
   return (
     <div id="main">
       <Head>
-        <title>About Daniel</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="About Daniel"></meta>
+        <title>About Daniel Goldenberg</title>
+        <link rel="icon" href={favicon} />
+        <meta property="og:title" content="About Daniel Goldenberg"></meta>
         <meta property="og:locale" content="en_US"></meta>
         <meta property="og:country-name" content="United States"></meta>
         <meta property="og:description" content="My name is Daniel Goldenberg and I'm a student and software developer based in Miami, Florida."></meta>
         <meta property="og:site_name" content="Daniel Goldenberg"></meta>
-        <meta property="og:image" content="images/profile.jpeg"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:brand" content="DanielG"></meta>
         <meta name="theme-color" content="#232936"></meta>
@@ -29,8 +31,7 @@ export default function Home() {
         <meta name="addsearch-category" content="Daniel Goldenberg"></meta>
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
-      <Navbar current="about"/>
-      <Heading title="About Me"/>
+      <Navbar current={page}/>
       <AboutMe/>
     </div>
   )

@@ -1,7 +1,7 @@
 @import "./globals";
 
 .route {
-  margin-right: 40px;
+  padding: 15px;
 }
 
 #current {
@@ -17,4 +17,10 @@
   color: $yellow;
   text-shadow: $yellow-glow;
   transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 600px) {
+  .route {
+    padding: 1px;
+  }
 }

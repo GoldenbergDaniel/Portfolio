@@ -3,12 +3,14 @@
 * {
   font-family: "Menlo", sans-serif;
   margin: 0;
+  // border: 1px solid red;
 }
 
 body {
   background-color: $primary-background;
-  text-shadow: rgba(63, 136, 238, 0.7) 0px 0px 16px;
+  text-shadow: $yellow-glow;
   color: $white;
+  width: absolute;
 }
 
 a {
@@ -16,6 +18,20 @@ a {
   color: inherit;
 }
 
-#container-main {
+#main {
   display: flex;
+}
+
+#left {
+  width: 30%;
+  max-width: 300px;
+  min-width: 200px;
+  height: 100%;
+  float: left;
+}
+
+@media (max-width: 600px) {
+  #left {
+    position: absolute;
+  }
 }
