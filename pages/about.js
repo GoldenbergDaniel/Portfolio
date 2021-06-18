@@ -7,7 +7,6 @@ import favicon from "../public/favicon.png"
 
 export default function Home() {
   let page = "about"
-
   return (
     <div id="main">
       <Head>
