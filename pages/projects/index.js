@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div id="main">
       <Head>
-        <title>Daniel Goldenberg's Projects</title>
+        <title>My Projects</title>
         <link rel="icon" href={favicon} />
         <meta property="og:title" content="Daniel Goldenberg's Projects"></meta>
         <meta property="og:locale" content="en_US"></meta>

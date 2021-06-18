@@ -4,7 +4,7 @@ import NavbarRoute from "./NavbarRoute"
 
 var Navbar = (props) => {
   return (
-    <div id={styles.navbar}>
+    <div id={styles.main}>
       <a href="/" id={styles.name}>
         <h1>Daniel Goldenberg</h1>
       </a>

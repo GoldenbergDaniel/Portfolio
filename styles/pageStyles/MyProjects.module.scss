@@ -1,13 +1,15 @@
 @import "../globals";
 
-#content {
+#main {
+  width: 100%;
+}
+
+#headingContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .container {
   display: flex;
   align-items: center;
-  margin: 30px 25px;
 }

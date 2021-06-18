@@ -4,9 +4,9 @@ import Heading from "../Heading"
 
 var MyProject = () => {
   return (
-    <div id={styles.aboutMe}>
+    <div id={styles.main}>
       <div id="left"></div>
-      {/* <Heading title="My Projects"/> */}
+      <Heading title="My Projects"/>
     </div>
   )
 }

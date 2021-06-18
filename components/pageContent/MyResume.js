@@ -4,11 +4,9 @@ import Heading from "../Heading"
 
 var MyResume = () => {
   return (
-    <div id={styles.aboutMe}>
+    <div id={styles.main}>
       <div id="left"></div>
       <Heading title="My Resume"/>
-      <div id={styles.content}>
-      </div>
     </div>
   )
 }

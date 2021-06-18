@@ -7,11 +7,10 @@ import favicon from "../public/favicon.png"
 
 export default function Home() {
   let page = "contact"
-
   return (
     <div id="main">
       <Head>
-        <title>About Daniel Goldenberg</title>
+        <title>Contact Me</title>
         <link rel="icon" href={favicon} />
         <meta property="og:title" content="About Daniel Goldenberg"></meta>
         <meta property="og:locale" content="en_US"></meta>

@@ -6,10 +6,14 @@ import myPhoto from "../../public/images/photo.jpeg"
 
 var AboutMe = () => {
   return (
-    <div id={styles.aboutMe}>
+    <div id={styles.main}>
       <div id="left"></div>
-      <Heading title="About Me"/>
-      <div id={styles.content}>
+      <div id={styles.headingContainer}>
+        <div className={styles.container}>
+          <Heading title="About Me"/>
+        </div>
+      </div>
+      <div id={styles.contentContainer}>
         <div id={styles.photo} className={styles.container}>
           <img src={myPhoto} alt="Daniel Goldenberg"/>
         </div>

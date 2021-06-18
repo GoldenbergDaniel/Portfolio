@@ -1,11 +1,10 @@
 @import "./globals";
 
-#heading {
-  margin-top: 60px;
+#main {
   font-size: 1.25rem;
   text-align: center;
-  // display: flex;
-  // justify-content: center;
+  margin-top: 60px;
+  width: 100%;
 }
 
 @media (max-width: 600px) {

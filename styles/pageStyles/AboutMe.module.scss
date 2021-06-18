@@ -1,16 +1,19 @@
 @import "../globals";
 
-#aboutMe {
-
-}
-
-#content {
+#contentContainer {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+#headingContainer {
+  display: flex;
+  justify-content: center;
+}
+
 #photo {
+  margin: 60px 25px;
   img {
     width: 350px;
     border: 1px solid $secondary-background;
@@ -28,5 +31,4 @@
 .container {
   display: flex;
   align-items: center;
-  margin: 30px 25px;
 }

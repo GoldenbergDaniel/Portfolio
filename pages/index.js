@@ -1,6 +1,7 @@
 import Head from "next/head"
 
 import Navbar from "../components/Navbar"
+import HomePage from "../components/pageContent/HomePage"
 
 import favicon from "../public/favicon.png"
 
@@ -31,6 +32,7 @@ export default function Home() {
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
       <Navbar current={page}/>
+      <HomePage/>
     </div>
   )
 }
