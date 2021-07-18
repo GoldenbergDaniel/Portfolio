@@ -18,7 +18,7 @@ var AboutMe = () => {
           <img src={myPhoto} alt="Daniel Goldenberg"/>
         </div>
         <div id={styles.description} className={styles.container}>
-          <p>My name is Daniel Goldenberg and I'm a student and software developer based in Miami, Florida. I'm mainly interested in low-level simulation development, embedded, and machine learning. Additionally, I enjoy physics, economics, and Jiu-Jitsu and MMA.</p>
+          <p>My name is <span>Daniel Goldenberg</span> and I'm a student and developer based in Winter Park, Florida. I'm mainly interested in low-level simulation development, embedded, and machine learning. Additionally, I enjoy physics, economics, and Jiu-Jitsu and MMA.</p>
         </div>
       </div>
     </div>
