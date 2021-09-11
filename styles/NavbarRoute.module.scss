@@ -5,8 +5,7 @@
 }
 
 #current {
-  color: $yellow;
-  text-shadow: $yellow-glow;
+  color: $blue;
 }
 
 #default {
@@ -14,8 +13,7 @@
 }
 
 #default:hover {
-  color: $yellow;
-  text-shadow: $yellow-glow;
+  color: $blue;
   transition: all 0.3s ease 0s;
 }
 
