@@ -1,7 +1,9 @@
+import styles from "../styles/pageStyles/Home.module.scss"
+
 import Head from "next/head"
 
+import Heading from "../components/Heading"
 import Navbar from "../components/Navbar"
-import HomePage from "../components/pageContent/HomePage"
 
 import favicon from "../public/favicon.png"
 
@@ -31,7 +33,15 @@ export default function Home() {
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
       <Navbar current={page}/>
-      <HomePage/>
+
+      <div id={styles.main}>
+        <div id="left"></div>
+        <div id={styles.headingContainer}>
+          <div className={styles.container}>
+            <Heading title="Daniel Goldenberg's Portfolio"/>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

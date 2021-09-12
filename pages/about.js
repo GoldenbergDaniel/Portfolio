@@ -1,9 +1,12 @@
+import styles from "../styles/pageStyles/About.module.scss"
+
 import Head from "next/head"
 
+import Heading from "../components/Heading"
 import Navbar from "../components/Navbar"
-import AboutMe from "../components/pageContent/AboutMe"
 
 import favicon from "../public/favicon.png"
+import myPhoto from "../public/images/photo.jpeg"
 
 export default function Home() {
   let page = "about"
@@ -31,7 +34,23 @@ export default function Home() {
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
       <Navbar current={page}/>
-      <AboutMe/>
+
+      <div id={styles.main}>
+        <div id="left"></div>
+        <div id={styles.headingContainer}>
+          <div className={styles.container}>
+            <Heading title="About Me"/>
+          </div>
+        </div>
+        <div id={styles.contentContainer}>
+          <div id={styles.photo} className={styles.container}>
+            <img src={myPhoto} alt="Daniel Goldenberg"/>
+          </div>
+          <div id={styles.description} className={styles.container}>
+            <p>My name is <span>Daniel Goldenberg</span> and I'm a student and developer based in Winter Park, Florida. I mainly focus on <span>game</span> and <span>embedded</span> development with C, but I'm also interested in <span>ML</span>. Additionally, I enjoy physics, economics, and Jiu-Jitsu and MMA.</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -1,7 +1,10 @@
+import styles from "../../styles/pageStyles/Projects.module.scss"
+
 import Head from "next/head"
 
+import Heading from "../../components/Heading"
+import Project from "../../components/Project"
 import Navbar from "../../components/Navbar"
-import MyProjects from "../../components/pageContent/MyProjects"
 
 import favicon from "../../public/favicon.png"
 
@@ -31,7 +34,30 @@ export default function Home() {
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
       <Navbar current={page}/>
-      <MyProjects/>
+      <div id={styles.main}>
+        <div id="left"></div>
+        <Heading title="My Projects"/>
+        <div id={styles.projects}>
+          <Project 
+            title="Speedrun Game" 
+            desc="A pixel art game written in C with raylib" 
+            technologies={["c", "raylib"]} 
+            link="https://github.com/GoldenbergDaniel/SpeedrunGame"
+          />
+          <Project 
+            title="Formula Frenzy" 
+            desc="A mental regression math game" 
+            technologies={["react.js", "python"]} 
+            link="https://github.com/GoldenbergDaniel/FormulaFrenzy"
+          />
+          <Project 
+            title="Textify" 
+            desc="A webapp for parsing custom acronyms " 
+            technologies={["html/css", "js", "go"]} 
+            link="https://github.com/GoldenbergDaniel/Textify"
+          />
+        </div>
+      </div>
     </div>
   )
 }

@@ -4,9 +4,11 @@
   width: 100%;
 }
 
-#headingContainer {
+#projects {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .container {

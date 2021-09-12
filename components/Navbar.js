@@ -11,7 +11,6 @@ var Navbar = (props) => {
       <div id={styles.routes}>
         <NavbarRoute name="About" path="/about" current={props.current == "about" ? true : false}></NavbarRoute>
         <NavbarRoute name="Projects" path="/projects" current={props.current == "projects" ? true : false}></NavbarRoute>
-        <NavbarRoute name="Resume" path="/resume" current={props.current == "resume" ? true : false}></NavbarRoute>
         <NavbarRoute name="Contact" path="/contact" current={props.current == "contact" ? true : false}></NavbarRoute>
       </div>
     </div>

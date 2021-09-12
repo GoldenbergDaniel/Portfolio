@@ -1,7 +1,9 @@
+import styles from "../styles/pageStyles/Contact.module.scss"
+
 import Head from "next/head"
 
+import Heading from "../components/Heading"
 import Navbar from "../components/Navbar"
-import ContactMe from "../components/pageContent/ContactMe"
 
 import favicon from "../public/favicon.png"
 
@@ -31,7 +33,14 @@ export default function Home() {
         <meta name="publisher" content="www.github.com/GoldenbergDaniel"></meta>
       </Head>
       <Navbar current={page}/>
-      <ContactMe/>
+      <div id={styles.main}>
+        <div id="left"></div>
+        <div id={styles.headingContainer}>
+          <div className={styles.container}>
+            <Heading title="Contact Me"/>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
