@@ -19,7 +19,7 @@ var Project = (props) => {
         <p>{props.desc}</p>
       </div>
       <div id={styles.link} className={styles.container}>
-        <a href={props.link} target="_blank">Code</a>
+        <a href={props.link} target="_blank"><span>Code</span></a>
       </div>
     </div>
   )

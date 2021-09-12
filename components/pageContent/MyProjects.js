@@ -10,10 +10,22 @@ var MyProject = () => {
       <Heading title="My Projects"/>
       <div id={styles.projects}>
         <Project 
+          title="Speedrun Game" 
+          desc="A pixel art game written in C with raylib" 
+          technologies={["c", "raylib"]} 
+          link="https://github.com/GoldenbergDaniel/SpeedrunGame"
+        />
+        <Project 
           title="Formula Frenzy" 
-          desc="Formula Frenzy is a game we made" 
-          technologies={["python", "js", "react.js"]} 
+          desc="A mental regression math game" 
+          technologies={["react.js", "python"]} 
           link="https://github.com/GoldenbergDaniel/FormulaFrenzy"
+        />
+        <Project 
+          title="Textify" 
+          desc="A webapp for parsing custom acronyms " 
+          technologies={["html/css", "js", "go"]} 
+          link="https://github.com/GoldenbergDaniel/Textify"
         />
       </div>
     </div>

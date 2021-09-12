@@ -1,10 +1,42 @@
+@import "globals";
+
 #main {
-    // text-align: center;
-    margin-top: 60px;
-    width: 100%;
-    border: 1px solid red;
+  margin-top: 60px;
+  width: 100%;
+  border: 1px solid $gray;
+  margin: 30px 50px;
+  padding: 10px;
 }
 
-.container {
-    border: 1px solid green;
+// .container {
+//   padding-bottom: 5px;
+// }
+
+#title {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+#photo {
+  padding-bottom: 5px;
+}
+
+#technologies {
+  padding-bottom: 5px;
+}
+
+#desc {
+  padding-bottom: 5px;
+}
+
+#link {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid $gray;
+}
+
+@media (max-width: 600px) {
+  #main {
+    margin: 30px 40px;
+  }
 }
