@@ -6,12 +6,12 @@ var Navbar = (props) => {
   return (
     <div id={styles.main}>
       <a href="/" id={styles.name}>
-        <h1>Daniel Goldenberg</h1>
+        <h1>DANIEL GOLDENBERG</h1>
       </a>
       <div id={styles.routes}>
-        <NavbarRoute name="About" path="/about" current={props.current == "about" ? true : false}></NavbarRoute>
-        <NavbarRoute name="Projects" path="/projects" current={props.current == "projects" ? true : false}></NavbarRoute>
-        <NavbarRoute name="Contact" path="/contact" current={props.current == "contact" ? true : false}></NavbarRoute>
+        <NavbarRoute name="ABOUT" path="/about" current={props.current == "about" ? true : false}></NavbarRoute>
+        <NavbarRoute name="PROJECTS" path="/projects" current={props.current == "projects" ? true : false}></NavbarRoute>
+        <NavbarRoute name="CONTACT" path="/contact" current={props.current == "contact" ? true : false}></NavbarRoute>
       </div>
     </div>
   )
