@@ -56,6 +56,12 @@ export default function Home() {
             technologies={["html/css", "js", "go"]} 
             link="https://github.com/GoldenbergDaniel/Textify"
           />
+          <Project 
+            title="SchoolStuff App" 
+            desc="FBLA app for managing school stuff" 
+            technologies={["react.js", "go"]} 
+            link="https://github.com/nonagaga/SchoolApp-Client"
+          />
         </div>
       </div>
     </div>
