@@ -1,7 +1,6 @@
 @import "globals";
 
 #main {
-  margin-top: 60px;
   width: 100%;
   border: 1px solid $gray;
   margin: 20px 50px;
@@ -13,16 +12,14 @@
 // }
 
 #title {
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-}
-
-#photo {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 #technologies {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  ul {
+    list-style-type: circle;
+  }
 }
 
 #desc {
@@ -31,7 +28,7 @@
 
 #link {
   margin-top: 5px;
-  padding-top: 5px;
+  padding-top: 10px;
   border-top: 1px solid $gray;
 }
 

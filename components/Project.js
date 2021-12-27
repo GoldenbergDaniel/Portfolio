@@ -7,9 +7,6 @@ var Project = (props) => {
       <div id={styles.title} className={styles.container}>
         <h1>{props.title}</h1>
       </div>
-      <div id={styles.photo} className={styles.container}>
-        <img src={props.image} alt="Screenshot of project"/>
-      </div>
       <div id={styles.technologies} className={styles.container}>
         <ul>
           {props.technologies.map(technology => <li>{technology}</li>)}
@@ -19,7 +16,7 @@ var Project = (props) => {
         <p>{props.desc}</p>
       </div>
       <div id={styles.link} className={styles.container}>
-        <a href={props.link} target="_blank"><span>Code</span></a>
+        <a href={props.link} target="_blank"><span>GitHub</span></a>
       </div>
     </div>
   )
